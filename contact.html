@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Inter:wght@200;300;400;500;700&family=Lato&family=Oswald:wght@500&family=Playfair+Display&family=Roboto:ital@0;1&family=Slabo+27px&family=Ubuntu:wght@400;500&family=Young+Serif&display=swap" rel="stylesheet">
+    <title>Contato</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            text-decoration: none;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        main{
+            background-color: #8209de;
+            height: 600px;
+        }        
+        .title{
+            background-color: #430275;
+            height: 80px;
+            width: 100%;
+        }
+        h1{
+            color: #ffd20a;
+            left: 40px;
+            top: 15px;
+            font-size: 50px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        h2 {
+            color: #ffd20a;
+            font-size: 35px;
+            left: 10px;
+            top: 20px;
+
+        }
+        .media{
+            top: 180px;
+            left: 20px;
+            display: table;
+        }
+        .link{
+            display: table-cell;
+            float: left;
+        }
+        .word{
+            display: table-cell;
+            float: left;
+        }
+        .media  a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 50px;
+            color: #fff;
+            border-radius: 50%;
+            transition: 0.5s;
+            margin: 10px 20px;
+        }
+        .media a:hover{
+            opacity: 0.8;
+        }
+        .media i{
+            font-size: 25px;
+        }
+        .media #instagram{
+            background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+        }
+        .media #whatsapp{
+            background-color: #25d366;
+        }
+        .media #email{
+            background-color: #3f8cd9;
+        }
+        .media #number{
+            background-color: #25d366;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        p{
+            color: #ffd20a;
+            font-size: 30px;
+            transition: 0.5s ease;
+            left: 100px;
+            margin-top: 30px;
+            margin-right: 20px;
+            transition: 0.5s;
+            cursor: pointer;
+        }        
+        p:hover{
+            color: #e329a5;
+        }
+        @media (max-width:750px){
+            main{
+                height: 800px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="title"><h1>Contato</h1></div>
+        <h2>Redes sociais para contato</h2>
+        <div class="media">
+            <div class="link">
+            <ul>
+                <li><a href="https://instagram.com/lepedi.br?igshid=MzRlODBiNWFlZA==" id="instagram">
+                <i class="fa-brands fa-instagram" ></i>
+            </a></li>
+            <li><a href="https://wa.me/558008782155" id="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a></li>
+            <li><a href="#" id="email">
+                <i class="fa-regular fa-envelope"></i>
+             </a></li>
+             <li><a href="#" id="number">
+                <i class="fa-solid fa-phone"></i>
+             </a></li>
+            </ul>
+            </div>
+            <div class="word">
+                <ul>
+                    <li><p>Instagram</p>
+                    </li>
+                    <li><p>Whatsapp</p></li>
+                    <li><p>Email</p></li>
+                    <li><p>Contato</p></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
